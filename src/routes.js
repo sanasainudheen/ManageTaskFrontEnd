@@ -84,7 +84,7 @@ export default {
     {
       path: '/',
       name: 'Home',
-      type: 'link',
+      type: 'external',
       icon: ExploreIcon,
       component: Home,
       
@@ -158,6 +158,7 @@ export default {
       type: 'link',
       icon: ExploreIcon,
       component: EditUser,
+
       
     },  
    

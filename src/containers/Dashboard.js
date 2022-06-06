@@ -133,7 +133,7 @@ const Dashboard = ({ history }) => {
           />
         )
       )}
-      <Redirect to="/500" />
+      <Redirect to="/404" />
       </Switch>):
        ((role=="User")?
      (

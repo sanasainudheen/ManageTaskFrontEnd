@@ -108,7 +108,7 @@ const SidebarItem = ({
     return (
       <a
         href={route.path}
-        target="_blank"
+       // target="_blank"
         rel="noopener noreferrer"
         key={index}
         className={classes.menuLink}
@@ -197,12 +197,12 @@ const SidebarItem = ({
         button
         onClick={() => toggleMenu(index)}
       >
-        <ListItemIcon>
+        {/* <ListItemIcon>
           <route.icon className={classes.menuIcon} />
-        </ListItemIcon>
-        <Typography variant="body1" className="flexSpacer">
+        </ListItemIcon> */}
+        {/* <Typography variant="body1" className="flexSpacer">
           {capitalize(route.name)}
-        </Typography>
+        </Typography> */}
         {badge(route.badge)}
       </ListItem>
     </NavLink>

@@ -19,7 +19,7 @@ render(
   <AppProvider>
     <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Switch>
-        <Route exact path="/404" component={NotFound} />       
+        <Route exact path="/404" component={NotFound} />   
         <Route exact path="/forgot" component={PasswordReset} />
         <Route exact path="/signin" component={Signin} render={(props) => <Signin {...props} />} />
         <Route exact path="/signup" component={Signup} />   
